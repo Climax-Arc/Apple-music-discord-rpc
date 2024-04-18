@@ -9,10 +9,9 @@ Works with local tracks and Apple Music streaming service.
 - Can be launched in background at login.
 - No status bar icon clutter.
 - Presence is only enabled when actually playing something.
-- Apple Music matching ([#5](https://github.com/NextFire/apple-music-discord-rpc/pull/5)).
-- Spotify search button ([#59](https://github.com/NextFire/apple-music-discord-rpc/pull/59)).
-- MusicBrainz artwork fallback ([#66](https://github.com/NextFire/apple-music-discord-rpc/pull/66))
-
+- Apple Music matching .
+- Spotify search button 
+- MusicBrainz artwork fallback 
 <img width="364" alt="Capture d’écran 2023-09-12 à 17 33 34" src="https://github.com/NextFire/apple-music-discord-rpc/assets/20094890/6b851575-176b-408d-83a1-c1f5c5106d16">
 
 ## Getting Started
@@ -26,14 +25,14 @@ Choose one of the two methods below to install the script and enable the macOS l
 After installing [Homebrew](https://brew.sh), execute the following commands:
 
 ```
-brew tap nextfire/tap
+brew tap Climax-Arc/tap
 brew install apple-music-discord-rpc
 brew services restart apple-music-discord-rpc
 ```
 
 These commands
 
-- add [this tap](https://github.com/NextFire/homebrew-tap) to Homebrew,
+- add [this tap](https://github.com/Climax-Arc/homebrew-tap) to Homebrew,
 - install its `apple-music-discord-rpc` formula (and Deno),
 - enable the launch agent and start it immediately.
 
@@ -44,7 +43,7 @@ The `music-rpc.ts` executable is now also in `PATH`.
 ```
 brew services stop apple-music-discord-rpc
 brew remove apple-music-discord-rpc
-brew untap nextfire/tap
+brew untap Climax-Arc/tap
 ```
 
 ### Shell Scripts
@@ -54,7 +53,7 @@ brew untap nextfire/tap
 Install [Deno](https://deno.land), clone the repository and execute [`install.sh`](/scripts/install.sh):
 
 ```
-git clone https://github.com/NextFire/apple-music-discord-rpc.git
+git clone https://github.com/Climax-Arc/Apple-music-discord-rpc.git
 cd apple-music-discord-rpc/
 ./scripts/install.sh
 ```
