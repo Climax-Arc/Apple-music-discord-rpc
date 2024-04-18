@@ -278,6 +278,7 @@ async function setActivity(rpc: Client): Promise<number> {
           large_image: infos.artworkUrl ?? "appicon",
           large_text: formatStr(props.album),
           small_image: "play_button512",
+          small_text: "Playing",
         };
 
         // set Activity Type to Listening
@@ -331,6 +332,7 @@ async function setActivity(rpc: Client): Promise<number> {
           large_image: infos.artworkUrl ?? "appicon",
           large_text: formatStr(props.album),
           small_image: "pause_button512",
+          small_text: "Paused"
         };
 
         if (infos.iTunesUrl) {
